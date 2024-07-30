@@ -27,6 +27,10 @@
   "item.mia.yellow_chestplate": "Yellow Dye Chestplate",
   "item.mia.yellow_leggings": "Yellow Dye Leggings",
   "item.mia.yellow_boots": "Yellow Dye Boots",
+  "item.mia.gunpowder_helmet": "Gunpowder Helmet",
+  "item.mia.gunpowder_chestplate": "Gunpowder Chestplate",
+  "item.mia.gunpowder_leggings": "Gunpowder Leggings",
+  "item.mia.gunpowder_boots": "Gunpowder Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

@@ -53,6 +53,13 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getYellowChestplate().get());
                         output.accept(ModItemArmor.getItems().getYellowLeggings().get());
                         output.accept(ModItemArmor.getItems().getYellowBoots().get());
+
+
+
+                        output.accept(ModItemArmor.getItems().getGunpowderHelmet().get());
+                        output.accept(ModItemArmor.getItems().getGunpowderChestplate().get());
+                        output.accept(ModItemArmor.getItems().getGunpowderLeggings().get());
+                        output.accept(ModItemArmor.getItems().getGunpowderBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

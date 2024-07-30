@@ -41,6 +41,11 @@ public class ModItems {
     public static RegistryObject<Item> yellowLeggings;
     public static RegistryObject<Item> yellowBoots;
 
+    public static RegistryObject<Item> gunpowderHelmet;
+    public static RegistryObject<Item> gunpowderChestplate;
+    public static RegistryObject<Item> gunpowderLeggings;
+    public static RegistryObject<Item> gunpowderBoots;
+
     public ModItems(IEventBus eventBus) {
         this.redHelmet = ITEMS.register("red_helmet", () -> new ArmorItem(ModArmorTiers.RED, ArmorItem.Type.HELMET, new Item.Properties()));
         this.redChestplate = ITEMS.register("red_chestplate", () -> new ArmorItem(ModArmorTiers.RED, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
@@ -76,6 +81,13 @@ public class ModItems {
         this.yellowChestplate = ITEMS.register("yellow_chestplate", () -> new ArmorItem(ModArmorTiers.YELLOW, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.yellowLeggings = ITEMS.register("yellow_leggings", () -> new ArmorItem(ModArmorTiers.YELLOW, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.yellowBoots = ITEMS.register("yellow_boots", () -> new ArmorItem(ModArmorTiers.YELLOW, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
+
+        this.gunpowderHelmet = ITEMS.register("gunpowder_helmet", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.gunpowderChestplate = ITEMS.register("gunpowder_chestplate", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.gunpowderLeggings = ITEMS.register("gunpowder_leggings", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.gunpowderBoots = ITEMS.register("gunpowder_boots", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -190,5 +202,21 @@ public class ModItems {
 
     public RegistryObject<Item> getYellowBoots() {
         return yellowBoots;
+    }
+
+    public RegistryObject<Item> getGunpowderHelmet() {
+        return gunpowderHelmet;
+    }
+
+    public RegistryObject<Item> getGunpowderChestplate() {
+        return gunpowderChestplate;
+    }
+
+    public RegistryObject<Item> getGunpowderLeggings() {
+        return gunpowderLeggings;
+    }
+
+    public RegistryObject<Item> getGunpowderBoots() {
+        return gunpowderBoots;
     }
 }

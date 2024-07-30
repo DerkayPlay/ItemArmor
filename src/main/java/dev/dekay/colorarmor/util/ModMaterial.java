@@ -2,7 +2,8 @@ package dev.dekay.colorarmor.util;
 
 public enum ModMaterial {
 
-    RED(1, 3, 2, 1, 0, 0, 0);
+    RED(1, 3, 2, 1, 0, 0, 0),
+    GUNPOWDER(1,1,1,1,0,0,0);
 
     private final int[] protectionAmounts;
     private final int enchantmentValue;
