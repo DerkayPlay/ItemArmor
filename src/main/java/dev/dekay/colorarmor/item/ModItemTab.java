@@ -28,6 +28,31 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getLimeChestplate().get());
                         output.accept(ModItemArmor.getItems().getLimeLeggings().get());
                         output.accept(ModItemArmor.getItems().getLimeBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getGreenHelmet().get());
+                        output.accept(ModItemArmor.getItems().getGreenChestplate().get());
+                        output.accept(ModItemArmor.getItems().getGreenLeggings().get());
+                        output.accept(ModItemArmor.getItems().getGreenBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getOrangeHelmet().get());
+                        output.accept(ModItemArmor.getItems().getOrangeChestplate().get());
+                        output.accept(ModItemArmor.getItems().getOrangeLeggings().get());
+                        output.accept(ModItemArmor.getItems().getOrangeBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getBlueHelmet().get());
+                        output.accept(ModItemArmor.getItems().getBlueChestplate().get());
+                        output.accept(ModItemArmor.getItems().getBlueLeggings().get());
+                        output.accept(ModItemArmor.getItems().getBlueBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getCyanHelmet().get());
+                        output.accept(ModItemArmor.getItems().getCyanChestplate().get());
+                        output.accept(ModItemArmor.getItems().getCyanLeggings().get());
+                        output.accept(ModItemArmor.getItems().getCyanBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getYellowHelmet().get());
+                        output.accept(ModItemArmor.getItems().getYellowChestplate().get());
+                        output.accept(ModItemArmor.getItems().getYellowLeggings().get());
+                        output.accept(ModItemArmor.getItems().getYellowBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

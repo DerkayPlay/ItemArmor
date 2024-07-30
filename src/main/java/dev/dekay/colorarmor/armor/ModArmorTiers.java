@@ -16,7 +16,12 @@ import java.util.function.Supplier;
 public enum ModArmorTiers implements ArmorMaterial {
 
     RED("red", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.RED_DYE), new int[]{12, 15, 16, 12}),
-    LIME("lime", ModMaterial.LIME, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIME_DYE), new int[]{12, 15, 16, 12});
+    LIME("lime", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIME_DYE), new int[]{12, 15, 16, 12}),
+    GREEN("green", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.GREEN_DYE), new int[]{12, 15, 16, 12}),
+    ORANGE("orange", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.ORANGE_DYE), new int[]{12, 15, 16, 12}),
+    BLUE("blue", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLUE_DYE), new int[]{12, 15, 16, 12}),
+    CYAN("cyan", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.CYAN_DYE), new int[]{12, 15, 16, 12}),
+    YELLOW("yellow", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.YELLOW_DYE), new int[]{12, 15, 16, 12});
 
     private final String name;
     private final ModMaterial material;
