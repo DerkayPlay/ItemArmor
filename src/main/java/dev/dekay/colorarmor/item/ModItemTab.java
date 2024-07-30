@@ -24,6 +24,16 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getRedLeggings().get());
                         output.accept(ModItemArmor.getItems().getRedBoots().get());
 
+                        output.accept(ModItemArmor.getItems().getOrangeHelmet().get());
+                        output.accept(ModItemArmor.getItems().getOrangeChestplate().get());
+                        output.accept(ModItemArmor.getItems().getOrangeLeggings().get());
+                        output.accept(ModItemArmor.getItems().getOrangeBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getYellowHelmet().get());
+                        output.accept(ModItemArmor.getItems().getYellowChestplate().get());
+                        output.accept(ModItemArmor.getItems().getYellowLeggings().get());
+                        output.accept(ModItemArmor.getItems().getYellowBoots().get());
+
                         output.accept(ModItemArmor.getItems().getLimeHelmet().get());
                         output.accept(ModItemArmor.getItems().getLimeChestplate().get());
                         output.accept(ModItemArmor.getItems().getLimeLeggings().get());
@@ -34,11 +44,6 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getGreenLeggings().get());
                         output.accept(ModItemArmor.getItems().getGreenBoots().get());
 
-                        output.accept(ModItemArmor.getItems().getOrangeHelmet().get());
-                        output.accept(ModItemArmor.getItems().getOrangeChestplate().get());
-                        output.accept(ModItemArmor.getItems().getOrangeLeggings().get());
-                        output.accept(ModItemArmor.getItems().getOrangeBoots().get());
-
                         output.accept(ModItemArmor.getItems().getBlueHelmet().get());
                         output.accept(ModItemArmor.getItems().getBlueChestplate().get());
                         output.accept(ModItemArmor.getItems().getBlueLeggings().get());
@@ -48,13 +53,6 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getCyanChestplate().get());
                         output.accept(ModItemArmor.getItems().getCyanLeggings().get());
                         output.accept(ModItemArmor.getItems().getCyanBoots().get());
-
-                        output.accept(ModItemArmor.getItems().getYellowHelmet().get());
-                        output.accept(ModItemArmor.getItems().getYellowChestplate().get());
-                        output.accept(ModItemArmor.getItems().getYellowLeggings().get());
-                        output.accept(ModItemArmor.getItems().getYellowBoots().get());
-
-
 
                         output.accept(ModItemArmor.getItems().getGunpowderHelmet().get());
                         output.accept(ModItemArmor.getItems().getGunpowderChestplate().get());
