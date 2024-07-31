@@ -40,6 +40,42 @@ public class ModItems {
     public static RegistryObject<Item> yellowChestplate;
     public static RegistryObject<Item> yellowLeggings;
     public static RegistryObject<Item> yellowBoots;
+    public static RegistryObject<Item> whiteHelmet;
+    public static RegistryObject<Item> whiteChestplate;
+    public static RegistryObject<Item> whiteLeggings;
+    public static RegistryObject<Item> whiteBoots;
+    public static RegistryObject<Item> blackHelmet;
+    public static RegistryObject<Item> blackChestplate;
+    public static RegistryObject<Item> blackLeggings;
+    public static RegistryObject<Item> blackBoots;
+    public static RegistryObject<Item> purpleHelmet;
+    public static RegistryObject<Item> purpleChestplate;
+    public static RegistryObject<Item> purpleLeggings;
+    public static RegistryObject<Item> purpleBoots;
+    public static RegistryObject<Item> lightBlueHelmet;
+    public static RegistryObject<Item> lightBlueChestplate;
+    public static RegistryObject<Item> lightBlueLeggings;
+    public static RegistryObject<Item> lightBlueBoots;
+    public static RegistryObject<Item> grayHelmet;
+    public static RegistryObject<Item> grayChestplate;
+    public static RegistryObject<Item> grayLeggings;
+    public static RegistryObject<Item> grayBoots;
+    public static RegistryObject<Item> lightGrayHelmet;
+    public static RegistryObject<Item> lightGrayChestplate;
+    public static RegistryObject<Item> lightGrayLeggings;
+    public static RegistryObject<Item> lightGrayBoots;
+    public static RegistryObject<Item> brownHelmet;
+    public static RegistryObject<Item> brownChestplate;
+    public static RegistryObject<Item> brownLeggings;
+    public static RegistryObject<Item> brownBoots;
+    public static RegistryObject<Item> magentaHelmet;
+    public static RegistryObject<Item> magentaChestplate;
+    public static RegistryObject<Item> magentaLeggings;
+    public static RegistryObject<Item> magentaBoots;
+    public static RegistryObject<Item> pinkHelmet;
+    public static RegistryObject<Item> pinkChestplate;
+    public static RegistryObject<Item> pinkLeggings;
+    public static RegistryObject<Item> pinkBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -82,7 +118,50 @@ public class ModItems {
         this.yellowLeggings = ITEMS.register("yellow_leggings", () -> new ArmorItem(ModArmorTiers.YELLOW, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.yellowBoots = ITEMS.register("yellow_boots", () -> new ArmorItem(ModArmorTiers.YELLOW, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+        this.whiteHelmet = ITEMS.register("white_helmet", () -> new ArmorItem(ModArmorTiers.WHITE, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.whiteChestplate = ITEMS.register("white_chestplate", () -> new ArmorItem(ModArmorTiers.WHITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.whiteLeggings = ITEMS.register("white_leggings", () -> new ArmorItem(ModArmorTiers.WHITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.whiteBoots = ITEMS.register("white_boots", () -> new ArmorItem(ModArmorTiers.WHITE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+        this.blackHelmet = ITEMS.register("black_helmet", () -> new ArmorItem(ModArmorTiers.BLACK, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.blackChestplate = ITEMS.register("black_chestplate", () -> new ArmorItem(ModArmorTiers.BLACK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.blackLeggings = ITEMS.register("black_leggings", () -> new ArmorItem(ModArmorTiers.BLACK, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.blackBoots = ITEMS.register("black_boots", () -> new ArmorItem(ModArmorTiers.BLACK, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.purpleHelmet = ITEMS.register("purple_helmet", () -> new ArmorItem(ModArmorTiers.PURPLE, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.purpleChestplate = ITEMS.register("purple_chestplate", () -> new ArmorItem(ModArmorTiers.PURPLE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.purpleLeggings = ITEMS.register("purple_leggings", () -> new ArmorItem(ModArmorTiers.PURPLE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.purpleBoots = ITEMS.register("purple_boots", () -> new ArmorItem(ModArmorTiers.PURPLE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.lightBlueHelmet = ITEMS.register("light_blue_helmet", () -> new ArmorItem(ModArmorTiers.LIGHT_BLUE, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.lightBlueChestplate = ITEMS.register("light_blue_chestplate", () -> new ArmorItem(ModArmorTiers.LIGHT_BLUE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.lightBlueLeggings = ITEMS.register("light_blue_leggings", () -> new ArmorItem(ModArmorTiers.LIGHT_BLUE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.lightBlueBoots = ITEMS.register("light_blue_boots", () -> new ArmorItem(ModArmorTiers.LIGHT_BLUE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.grayHelmet = ITEMS.register("gray_helmet", () -> new ArmorItem(ModArmorTiers.GRAY, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.grayChestplate = ITEMS.register("gray_chestplate", () -> new ArmorItem(ModArmorTiers.GRAY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.grayLeggings = ITEMS.register("gray_leggings", () -> new ArmorItem(ModArmorTiers.GRAY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.grayBoots = ITEMS.register("gray_boots", () -> new ArmorItem(ModArmorTiers.GRAY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.lightGrayHelmet = ITEMS.register("light_gray_helmet", () -> new ArmorItem(ModArmorTiers.LIGHT_GRAY, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.lightGrayChestplate = ITEMS.register("light_gray_chestplate", () -> new ArmorItem(ModArmorTiers.LIGHT_GRAY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.lightGrayLeggings = ITEMS.register("light_gray_leggings", () -> new ArmorItem(ModArmorTiers.LIGHT_GRAY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.lightGrayBoots = ITEMS.register("light_gray_boots", () -> new ArmorItem(ModArmorTiers.LIGHT_GRAY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.brownHelmet = ITEMS.register("brown_helmet", () -> new ArmorItem(ModArmorTiers.BROWN, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.brownChestplate = ITEMS.register("brown_chestplate", () -> new ArmorItem(ModArmorTiers.BROWN, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.brownLeggings = ITEMS.register("brown_leggings", () -> new ArmorItem(ModArmorTiers.BROWN, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.brownBoots = ITEMS.register("brown_boots", () -> new ArmorItem(ModArmorTiers.BROWN, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.magentaHelmet = ITEMS.register("magenta_helmet", () -> new ArmorItem(ModArmorTiers.MAGENTA, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.magentaChestplate = ITEMS.register("magenta_chestplate", () -> new ArmorItem(ModArmorTiers.MAGENTA, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.magentaLeggings = ITEMS.register("magenta_leggings", () -> new ArmorItem(ModArmorTiers.MAGENTA, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.magentaBoots = ITEMS.register("magenta_boots", () -> new ArmorItem(ModArmorTiers.MAGENTA, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.pinkHelmet = ITEMS.register("pink_helmet", () -> new ArmorItem(ModArmorTiers.PINK, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.pinkChestplate = ITEMS.register("pink_chestplate", () -> new ArmorItem(ModArmorTiers.PINK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.pinkLeggings = ITEMS.register("pink_leggings", () -> new ArmorItem(ModArmorTiers.PINK, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.pinkBoots = ITEMS.register("pink_boots", () -> new ArmorItem(ModArmorTiers.PINK, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         this.gunpowderHelmet = ITEMS.register("gunpowder_helmet", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.HELMET, new Item.Properties()));
         this.gunpowderChestplate = ITEMS.register("gunpowder_chestplate", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
@@ -218,5 +297,149 @@ public class ModItems {
 
     public RegistryObject<Item> getGunpowderBoots() {
         return gunpowderBoots;
+    }
+
+    public RegistryObject<Item> getWhiteHelmet() {
+        return whiteHelmet;
+    }
+
+    public RegistryObject<Item> getWhiteChestplate() {
+        return whiteChestplate;
+    }
+
+    public RegistryObject<Item> getWhiteLeggings() {
+        return whiteLeggings;
+    }
+
+    public RegistryObject<Item> getWhiteBoots() {
+        return whiteBoots;
+    }
+
+    public RegistryObject<Item> getBlackHelmet() {
+        return blackHelmet;
+    }
+
+    public RegistryObject<Item> getBlackChestplate() {
+        return blackChestplate;
+    }
+
+    public RegistryObject<Item> getBlackLeggings() {
+        return blackLeggings;
+    }
+
+    public RegistryObject<Item> getBlackBoots() {
+        return blackBoots;
+    }
+
+    public RegistryObject<Item> getPurpleHelmet() {
+        return purpleHelmet;
+    }
+
+    public RegistryObject<Item> getPurpleChestplate() {
+        return purpleChestplate;
+    }
+
+    public RegistryObject<Item> getPurpleLeggings() {
+        return purpleLeggings;
+    }
+
+    public RegistryObject<Item> getPurpleBoots() {
+        return purpleBoots;
+    }
+
+    public RegistryObject<Item> getLightBlueHelmet() {
+        return lightBlueHelmet;
+    }
+
+    public RegistryObject<Item> getLightBlueChestplate() {
+        return lightBlueChestplate;
+    }
+
+    public RegistryObject<Item> getLightBlueLeggings() {
+        return lightBlueLeggings;
+    }
+
+    public RegistryObject<Item> getLightBlueBoots() {
+        return lightBlueBoots;
+    }
+
+    public RegistryObject<Item> getGrayHelmet() {
+        return grayHelmet;
+    }
+
+    public RegistryObject<Item> getGrayChestplate() {
+        return grayChestplate;
+    }
+
+    public RegistryObject<Item> getGrayLeggings() {
+        return grayLeggings;
+    }
+
+    public RegistryObject<Item> getGrayBoots() {
+        return grayBoots;
+    }
+
+    public RegistryObject<Item> getLightGrayHelmet() {
+        return lightGrayHelmet;
+    }
+
+    public RegistryObject<Item> getLightGrayChestplate() {
+        return lightGrayChestplate;
+    }
+
+    public RegistryObject<Item> getLightGrayLeggings() {
+        return lightGrayLeggings;
+    }
+
+    public RegistryObject<Item> getLightGrayBoots() {
+        return lightGrayBoots;
+    }
+
+    public RegistryObject<Item> getBrownHelmet() {
+        return brownHelmet;
+    }
+
+    public RegistryObject<Item> getBrownChestplate() {
+        return brownChestplate;
+    }
+
+    public RegistryObject<Item> getBrownLeggings() {
+        return brownLeggings;
+    }
+
+    public RegistryObject<Item> getBrownBoots() {
+        return brownBoots;
+    }
+
+    public RegistryObject<Item> getMagentaHelmet() {
+        return magentaHelmet;
+    }
+
+    public RegistryObject<Item> getMagentaChestplate() {
+        return magentaChestplate;
+    }
+
+    public RegistryObject<Item> getMagentaLeggings() {
+        return magentaLeggings;
+    }
+
+    public RegistryObject<Item> getMagentaBoots() {
+        return magentaBoots;
+    }
+
+    public RegistryObject<Item> getPinkHelmet() {
+        return pinkHelmet;
+    }
+
+    public RegistryObject<Item> getPinkChestplate() {
+        return pinkChestplate;
+    }
+
+    public RegistryObject<Item> getPinkLeggings() {
+        return pinkLeggings;
+    }
+
+    public RegistryObject<Item> getPinkBoots() {
+        return pinkBoots;
     }
 }

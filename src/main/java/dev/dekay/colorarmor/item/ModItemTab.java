@@ -54,6 +54,51 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getCyanLeggings().get());
                         output.accept(ModItemArmor.getItems().getCyanBoots().get());
 
+                        output.accept(ModItemArmor.getItems().getLightBlueHelmet().get());
+                        output.accept(ModItemArmor.getItems().getLightBlueChestplate().get());
+                        output.accept(ModItemArmor.getItems().getLightBlueLeggings().get());
+                        output.accept(ModItemArmor.getItems().getLightBlueBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getPinkHelmet().get());
+                        output.accept(ModItemArmor.getItems().getPinkChestplate().get());
+                        output.accept(ModItemArmor.getItems().getPinkLeggings().get());
+                        output.accept(ModItemArmor.getItems().getPinkBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getMagentaHelmet().get());
+                        output.accept(ModItemArmor.getItems().getMagentaChestplate().get());
+                        output.accept(ModItemArmor.getItems().getMagentaLeggings().get());
+                        output.accept(ModItemArmor.getItems().getMagentaBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getPurpleHelmet().get());
+                        output.accept(ModItemArmor.getItems().getPurpleChestplate().get());
+                        output.accept(ModItemArmor.getItems().getPurpleLeggings().get());
+                        output.accept(ModItemArmor.getItems().getPurpleBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getBlackHelmet().get());
+                        output.accept(ModItemArmor.getItems().getBlackChestplate().get());
+                        output.accept(ModItemArmor.getItems().getBlackLeggings().get());
+                        output.accept(ModItemArmor.getItems().getBlackBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getGrayHelmet().get());
+                        output.accept(ModItemArmor.getItems().getGrayChestplate().get());
+                        output.accept(ModItemArmor.getItems().getGrayLeggings().get());
+                        output.accept(ModItemArmor.getItems().getGrayBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getLightGrayHelmet().get());
+                        output.accept(ModItemArmor.getItems().getLightGrayChestplate().get());
+                        output.accept(ModItemArmor.getItems().getLightGrayLeggings().get());
+                        output.accept(ModItemArmor.getItems().getLightGrayBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getWhiteHelmet().get());
+                        output.accept(ModItemArmor.getItems().getWhiteChestplate().get());
+                        output.accept(ModItemArmor.getItems().getWhiteLeggings().get());
+                        output.accept(ModItemArmor.getItems().getWhiteBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getBrownHelmet().get());
+                        output.accept(ModItemArmor.getItems().getBrownChestplate().get());
+                        output.accept(ModItemArmor.getItems().getBrownLeggings().get());
+                        output.accept(ModItemArmor.getItems().getBrownBoots().get());
+
                         output.accept(ModItemArmor.getItems().getGunpowderHelmet().get());
                         output.accept(ModItemArmor.getItems().getGunpowderChestplate().get());
                         output.accept(ModItemArmor.getItems().getGunpowderLeggings().get());
