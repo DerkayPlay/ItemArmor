@@ -103,6 +103,26 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getGunpowderChestplate().get());
                         output.accept(ModItemArmor.getItems().getGunpowderLeggings().get());
                         output.accept(ModItemArmor.getItems().getGunpowderBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getLapisHelmet().get());
+                        output.accept(ModItemArmor.getItems().getLapisChestplate().get());
+                        output.accept(ModItemArmor.getItems().getLapisLeggings().get());
+                        output.accept(ModItemArmor.getItems().getLapisBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getRedstoneHelmet().get());
+                        output.accept(ModItemArmor.getItems().getRedstoneChestplate().get());
+                        output.accept(ModItemArmor.getItems().getRedstoneLeggings().get());
+                        output.accept(ModItemArmor.getItems().getRedstoneBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getCoalHelmet().get());
+                        output.accept(ModItemArmor.getItems().getCoalChestplate().get());
+                        output.accept(ModItemArmor.getItems().getCoalLeggings().get());
+                        output.accept(ModItemArmor.getItems().getCoalBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getEmeraldHelmet().get());
+                        output.accept(ModItemArmor.getItems().getEmeraldChestplate().get());
+                        output.accept(ModItemArmor.getItems().getEmeraldLeggings().get());
+                        output.accept(ModItemArmor.getItems().getEmeraldBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

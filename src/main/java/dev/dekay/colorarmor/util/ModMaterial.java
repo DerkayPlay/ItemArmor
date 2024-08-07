@@ -3,6 +3,10 @@ package dev.dekay.colorarmor.util;
 public enum ModMaterial {
 
     RED(1, 3, 2, 1, 0, 0, 0),
+    LAPIS(2, 2,2,2,0,0,0),
+    EMERALD(2,6,4,2,0,0,0),
+    REDSTONE(2,2,2,2,0,0,0),
+    COAL(2,4,3,2,0,0,0),
     GUNPOWDER(1,1,1,1,0,0,0);
 
     private final int[] protectionAmounts;
@@ -10,7 +14,7 @@ public enum ModMaterial {
     private final float toughness;
     private final float knockbackResistance;
 
-    ModMaterial(int headReduce, int chestReduce, int legReduce, int bootReduce, int enchantmentValue, float toughness, float knockbackResistance) {
+    ModMaterial(int bootReduce, int legReduce, int chestReduce, int headReduce, int enchantmentValue, float toughness, float knockbackResistance) {
         this.protectionAmounts = new int[]{headReduce, chestReduce, legReduce, bootReduce};
         this.enchantmentValue = enchantmentValue;
         this.knockbackResistance = knockbackResistance;

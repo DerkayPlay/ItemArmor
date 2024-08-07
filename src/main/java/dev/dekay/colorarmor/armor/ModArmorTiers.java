@@ -15,24 +15,29 @@ import java.util.function.Supplier;
 
 public enum ModArmorTiers implements ArmorMaterial {
 
-    RED("red", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.RED_DYE), new int[]{12, 15, 16, 12}),
-    LIME("lime", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIME_DYE), new int[]{12, 15, 16, 12}),
-    GREEN("green", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.GREEN_DYE), new int[]{12, 15, 16, 12}),
-    ORANGE("orange", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.ORANGE_DYE), new int[]{12, 15, 16, 12}),
-    BLUE("blue", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLUE_DYE), new int[]{12, 15, 16, 12}),
-    CYAN("cyan", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.CYAN_DYE), new int[]{12, 15, 16, 12}),
-    YELLOW("yellow", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.YELLOW_DYE), new int[]{12, 15, 16, 12}),
-    WHITE("white", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.WHITE_DYE), new int[]{12, 15, 16, 12}),
-    BLACK("black", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLACK_DYE), new int[]{12, 15, 16, 12}),
-    PURPLE("purple", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.PURPLE_DYE), new int[]{12, 15, 16, 12}),
-    LIGHT_BLUE("light_blue", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIGHT_BLUE_DYE), new int[]{12, 15, 16, 12}),
-    GRAY("gray", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.GRAY_DYE), new int[]{12, 15, 16, 12}),
-    LIGHT_GRAY("light_gray", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIGHT_GRAY_DYE), new int[]{12, 15, 16, 12}),
-    BROWN("brown", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BROWN_DYE), new int[]{12, 15, 16, 12}),
-    MAGENTA("magenta", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.MAGENTA_DYE), new int[]{12, 15, 16, 12}),
-    PINK("pink", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.PINK_DYE), new int[]{12, 15, 16, 12}),
+    RED("red", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.RED_DYE), new int[]{50, 65, 75, 50}),
+    LIME("lime", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIME_DYE), new int[]{50, 65, 75, 50}),
+    GREEN("green", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.GREEN_DYE), new int[]{50, 65, 75, 50}),
+    ORANGE("orange", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.ORANGE_DYE), new int[]{50, 65, 75, 50}),
+    BLUE("blue", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLUE_DYE), new int[]{50, 65, 75, 50}),
+    CYAN("cyan", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.CYAN_DYE), new int[]{50, 65, 75, 50}),
+    YELLOW("yellow", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.YELLOW_DYE), new int[]{50, 65, 75, 50}),
+    WHITE("white", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.WHITE_DYE), new int[]{50, 65, 75, 50}),
+    BLACK("black", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLACK_DYE), new int[]{50, 65, 75, 50}),
+    PURPLE("purple", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.PURPLE_DYE), new int[]{50, 65, 75, 50}),
+    LIGHT_BLUE("light_blue", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIGHT_BLUE_DYE), new int[]{50, 65, 75, 50}),
+    GRAY("gray", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.GRAY_DYE), new int[]{50, 65, 75, 50}),
+    LIGHT_GRAY("light_gray", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LIGHT_GRAY_DYE), new int[]{50, 65, 75, 50}),
+    BROWN("brown", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BROWN_DYE), new int[]{50, 65, 75, 50}),
+    MAGENTA("magenta", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.MAGENTA_DYE), new int[]{50, 65, 75, 50}),
+    PINK("pink", ModMaterial.RED, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.PINK_DYE), new int[]{50, 65, 75, 50}),
 
-    GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{10, 10, 10, 10});
+    LAPIS("lapis", ModMaterial.LAPIS, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.LAPIS_LAZULI), new int[]{100, 150, 155, 100}),
+    EMERALD("emerald", ModMaterial.EMERALD, SoundEvents.ARMOR_EQUIP_DIAMOND, () -> Ingredient.of(Items.EMERALD), new int[]{195, 225, 240, 165}),
+    REDSONE("redstone", ModMaterial.REDSTONE, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.REDSTONE), new int[]{100, 150, 155, 100}),
+    COAL("coal", ModMaterial.COAL, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.COAL), new int[]{145, 185, 200, 125}),
+
+    GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{20, 20, 20, 20});
 
     private final String name;
     private final ModMaterial material;

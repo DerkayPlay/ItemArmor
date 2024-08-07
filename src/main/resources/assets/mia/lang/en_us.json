@@ -67,6 +67,22 @@
   "item.mia.brown_chestplate": "Brown Dye Chestplate",
   "item.mia.brown_leggings": "Brown Dye Leggings",
   "item.mia.brown_boots": "Brown Dye Boots",
+  "item.mia.lapis_helmet": "Lapis Lazuli Helmet",
+  "item.mia.lapis_chestplate": "Lapis Lazuli Chestplate",
+  "item.mia.lapis_leggings": "Lapis Lazuli Leggings",
+  "item.mia.lapis_boots": "Lapis Lazuli Boots",
+  "item.mia.emerald_helmet": "Emerald Helmet",
+  "item.mia.emerald_chestplate": "Emerald Chestplate",
+  "item.mia.emerald_leggings": "Emerald Leggings",
+  "item.mia.emerald_boots": "Emerald Boots",
+  "item.mia.redstone_helmet": "Redstone Dust Helmet",
+  "item.mia.redstone_chestplate": "Redstone Dust Helmet",
+  "item.mia.redstone_leggings": "Redstone Dust Leggings",
+  "item.mia.redstone_boots": "Redstone Dust Boots",
+  "item.mia.coal_helmet": "Coal Helmet",
+  "item.mia.coal_chestplate": "Coal Chestplate",
+  "item.mia.coal_leggings": "Coal Leggings",
+  "item.mia.coal_boots": "Coal Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

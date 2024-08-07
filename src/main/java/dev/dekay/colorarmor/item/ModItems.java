@@ -77,6 +77,23 @@ public class ModItems {
     public static RegistryObject<Item> pinkLeggings;
     public static RegistryObject<Item> pinkBoots;
 
+    public static RegistryObject<Item> lapisHelmet;
+    public static RegistryObject<Item> lapisChestplate;
+    public static RegistryObject<Item> lapisLeggings;
+    public static RegistryObject<Item> lapisBoots;
+    public static RegistryObject<Item> emeraldHelmet;
+    public static RegistryObject<Item> emeraldChestplate;
+    public static RegistryObject<Item> emeraldLeggings;
+    public static RegistryObject<Item> emeraldBoots;
+    public static RegistryObject<Item> redstoneHelmet;
+    public static RegistryObject<Item> redstoneChestplate;
+    public static RegistryObject<Item> redstoneLeggings;
+    public static RegistryObject<Item> redstoneBoots;
+    public static RegistryObject<Item> coalHelmet;
+    public static RegistryObject<Item> coalChestplate;
+    public static RegistryObject<Item> coalLeggings;
+    public static RegistryObject<Item> coalBoots;
+
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
     public static RegistryObject<Item> gunpowderLeggings;
@@ -167,6 +184,26 @@ public class ModItems {
         this.gunpowderChestplate = ITEMS.register("gunpowder_chestplate", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.gunpowderLeggings = ITEMS.register("gunpowder_leggings", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.gunpowderBoots = ITEMS.register("gunpowder_boots", () -> new ArmorItem(ModArmorTiers.GUNPOWDER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.lapisHelmet = ITEMS.register("lapis_helmet", () -> new ArmorItem(ModArmorTiers.LAPIS, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.lapisChestplate = ITEMS.register("lapis_chestplate", () -> new ArmorItem(ModArmorTiers.LAPIS, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.lapisLeggings = ITEMS.register("lapis_leggings", () -> new ArmorItem(ModArmorTiers.LAPIS, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.lapisBoots = ITEMS.register("lapis_boots", () -> new ArmorItem(ModArmorTiers.LAPIS, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.emeraldHelmet = ITEMS.register("emerald_helmet", () -> new ArmorItem(ModArmorTiers.EMERALD, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.emeraldChestplate = ITEMS.register("emerald_chestplate", () -> new ArmorItem(ModArmorTiers.EMERALD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.emeraldLeggings = ITEMS.register("emerald_leggings", () -> new ArmorItem(ModArmorTiers.EMERALD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.emeraldBoots = ITEMS.register("emerald_boots", () -> new ArmorItem(ModArmorTiers.EMERALD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.redstoneHelmet = ITEMS.register("redstone_helmet", () -> new ArmorItem(ModArmorTiers.REDSONE, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.redstoneChestplate = ITEMS.register("redstone_chestplate", () -> new ArmorItem(ModArmorTiers.REDSONE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.redstoneLeggings = ITEMS.register("redstone_leggings", () -> new ArmorItem(ModArmorTiers.REDSONE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.redstoneBoots = ITEMS.register("redstone_boots", () -> new ArmorItem(ModArmorTiers.REDSONE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.coalHelmet = ITEMS.register("coal_helmet", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.coalChestplate = ITEMS.register("coal_chestplate", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.coalLeggings = ITEMS.register("coal_leggings", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.coalBoots = ITEMS.register("coal_boots", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -441,5 +478,69 @@ public class ModItems {
 
     public RegistryObject<Item> getPinkBoots() {
         return pinkBoots;
+    }
+
+    public RegistryObject<Item> getLapisHelmet() {
+        return lapisHelmet;
+    }
+
+    public RegistryObject<Item> getLapisChestplate() {
+        return lapisChestplate;
+    }
+
+    public RegistryObject<Item> getLapisLeggings() {
+        return lapisLeggings;
+    }
+
+    public RegistryObject<Item> getLapisBoots() {
+        return lapisBoots;
+    }
+
+    public RegistryObject<Item> getEmeraldHelmet() {
+        return emeraldHelmet;
+    }
+
+    public RegistryObject<Item> getEmeraldChestplate() {
+        return emeraldChestplate;
+    }
+
+    public RegistryObject<Item> getEmeraldLeggings() {
+        return emeraldLeggings;
+    }
+
+    public RegistryObject<Item> getEmeraldBoots() {
+        return emeraldBoots;
+    }
+
+    public RegistryObject<Item> getRedstoneHelmet() {
+        return redstoneHelmet;
+    }
+
+    public RegistryObject<Item> getRedstoneChestplate() {
+        return redstoneChestplate;
+    }
+
+    public RegistryObject<Item> getRedstoneLeggings() {
+        return redstoneLeggings;
+    }
+
+    public RegistryObject<Item> getRedstoneBoots() {
+        return redstoneBoots;
+    }
+
+    public RegistryObject<Item> getCoalHelmet() {
+        return coalHelmet;
+    }
+
+    public RegistryObject<Item> getCoalChestplate() {
+        return coalChestplate;
+    }
+
+    public RegistryObject<Item> getCoalLeggings() {
+        return coalLeggings;
+    }
+
+    public RegistryObject<Item> getCoalBoots() {
+        return coalBoots;
     }
 }
