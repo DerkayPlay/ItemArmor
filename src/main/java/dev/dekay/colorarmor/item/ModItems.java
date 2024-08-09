@@ -93,6 +93,22 @@ public class ModItems {
     public static RegistryObject<Item> coalChestplate;
     public static RegistryObject<Item> coalLeggings;
     public static RegistryObject<Item> coalBoots;
+    public static RegistryObject<Item> copperHelmet;
+    public static RegistryObject<Item> copperChestplate;
+    public static RegistryObject<Item> copperLeggings;
+    public static RegistryObject<Item> copperBoots;
+    public static RegistryObject<Item> rawIronHelmet;
+    public static RegistryObject<Item> rawIronChestplate;
+    public static RegistryObject<Item> rawIronLeggings;
+    public static RegistryObject<Item> rawIronBoots;
+    public static RegistryObject<Item> rawGoldHelmet;
+    public static RegistryObject<Item> rawGoldChestplate;
+    public static RegistryObject<Item> rawGoldLeggings;
+    public static RegistryObject<Item> rawGoldBoots;
+    public static RegistryObject<Item> rawCopperHelmet;
+    public static RegistryObject<Item> rawCopperChestplate;
+    public static RegistryObject<Item> rawCopperLeggings;
+    public static RegistryObject<Item> rawCopperBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -204,6 +220,26 @@ public class ModItems {
         this.coalChestplate = ITEMS.register("coal_chestplate", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.coalLeggings = ITEMS.register("coal_leggings", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.coalBoots = ITEMS.register("coal_boots", () -> new ArmorItem(ModArmorTiers.COAL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.copperHelmet = ITEMS.register("copper_helmet", () -> new ArmorItem(ModArmorTiers.COPPER, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.copperChestplate = ITEMS.register("copper_chestplate", () -> new ArmorItem(ModArmorTiers.COPPER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.copperLeggings = ITEMS.register("copper_leggings", () -> new ArmorItem(ModArmorTiers.COPPER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.copperBoots = ITEMS.register("copper_boots", () -> new ArmorItem(ModArmorTiers.COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.rawIronHelmet = ITEMS.register("raw_iron_helmet", () -> new ArmorItem(ModArmorTiers.RAW_IRON, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.rawIronChestplate = ITEMS.register("raw_iron_chestplate", () -> new ArmorItem(ModArmorTiers.RAW_IRON, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.rawIronLeggings = ITEMS.register("raw_iron_leggings", () -> new ArmorItem(ModArmorTiers.RAW_IRON, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.rawIronBoots = ITEMS.register("raw_iron_boots", () -> new ArmorItem(ModArmorTiers.RAW_IRON, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.rawGoldHelmet = ITEMS.register("raw_gold_helmet", () -> new ArmorItem(ModArmorTiers.RAW_GOLD, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.rawGoldChestplate = ITEMS.register("raw_gold_chestplate", () -> new ArmorItem(ModArmorTiers.RAW_GOLD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.rawGoldLeggings = ITEMS.register("raw_gold_leggings", () -> new ArmorItem(ModArmorTiers.RAW_GOLD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.rawGoldBoots = ITEMS.register("raw_gold_boots", () -> new ArmorItem(ModArmorTiers.RAW_GOLD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.rawCopperHelmet = ITEMS.register("raw_copper_helmet", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.rawCopperChestplate = ITEMS.register("raw_copper_chestplate", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.rawCopperLeggings = ITEMS.register("raw_copper_leggings", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.rawCopperBoots = ITEMS.register("raw_copper_boots", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -543,4 +579,69 @@ public class ModItems {
     public RegistryObject<Item> getCoalBoots() {
         return coalBoots;
     }
+
+    public RegistryObject<Item> getCopperHelmet() {
+        return copperHelmet;
+    }
+
+    public RegistryObject<Item> getCopperChestplate() {
+        return copperChestplate;
+    }
+
+    public RegistryObject<Item> getCopperLeggings() {
+        return copperLeggings;
+    }
+
+    public RegistryObject<Item> getCopperBoots() {
+        return copperBoots;
+    }
+
+    public RegistryObject<Item> getRawIronHelmet() {
+        return rawIronHelmet;
+    }
+
+    public RegistryObject<Item> getRawIronChestplate() {
+        return rawIronChestplate;
+    }
+
+    public RegistryObject<Item> getRawIronLeggings() {
+        return rawIronLeggings;
+    }
+
+    public RegistryObject<Item> getRawIronBoots() {
+        return rawIronBoots;
+    }
+
+    public RegistryObject<Item> getRawGoldHelmet() {
+        return rawGoldHelmet;
+    }
+
+    public RegistryObject<Item> getRawGoldChestplate() {
+        return rawGoldChestplate;
+    }
+
+    public RegistryObject<Item> getRawGoldLeggings() {
+        return rawGoldLeggings;
+    }
+
+    public RegistryObject<Item> getRawGoldBoots() {
+        return rawGoldBoots;
+    }
+
+    public RegistryObject<Item> getRawCopperHelmet() {
+        return rawCopperHelmet;
+    }
+
+    public RegistryObject<Item> getRawCopperChestplate() {
+        return rawCopperChestplate;
+    }
+
+    public RegistryObject<Item> getRawCopperLeggings() {
+        return rawCopperLeggings;
+    }
+
+    public RegistryObject<Item> getRawCopperBoots() {
+        return rawCopperBoots;
+    }
+
 }

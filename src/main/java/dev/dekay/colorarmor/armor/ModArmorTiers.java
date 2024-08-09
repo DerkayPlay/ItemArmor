@@ -36,6 +36,10 @@ public enum ModArmorTiers implements ArmorMaterial {
     EMERALD("emerald", ModMaterial.EMERALD, SoundEvents.ARMOR_EQUIP_DIAMOND, () -> Ingredient.of(Items.EMERALD), new int[]{195, 225, 240, 165}),
     REDSONE("redstone", ModMaterial.REDSTONE, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.REDSTONE), new int[]{100, 150, 155, 100}),
     COAL("coal", ModMaterial.COAL, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.COAL), new int[]{145, 185, 200, 125}),
+    COPPER("copper", ModMaterial.COPPER, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.COPPER_INGOT), new int[]{150, 195, 200, 150}),
+    RAW_IRON("raw_iron", ModMaterial.RAW_IRON, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.RAW_IRON), new int[]{150, 195, 200, 150}),
+    RAW_GOLD("raw_gold", ModMaterial.RAW_GOLD, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.RAW_GOLD), new int[]{61, 75, 82, 47}),
+    RAW_COPPER("raw_copper", ModMaterial.RAW_COPPER, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.RAW_COPPER), new int[]{110, 155, 160, 110}),
 
     GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{20, 20, 20, 20});
 

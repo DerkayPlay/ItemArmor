@@ -83,6 +83,22 @@
   "item.mia.coal_chestplate": "Coal Chestplate",
   "item.mia.coal_leggings": "Coal Leggings",
   "item.mia.coal_boots": "Coal Boots",
+  "item.mia.copper_helmet": "Copper Helmet",
+  "item.mia.copper_chestplate": "Copper Chestplate",
+  "item.mia.copper_leggings": "Copper Leggings",
+  "item.mia.copper_boots": "Copper Boots",
+  "item.mia.raw_iron_helmet": "Raw Iron Helmet",
+  "item.mia.raw_iron_chestplate": "Raw Iron Chestplate",
+  "item.mia.raw_iron_leggings": "Raw Iron Leggings",
+  "item.mia.raw_iron_boots": "Raw Iron Boots",
+  "item.mia.raw_gold_helmet": "Raw Gold Helmet",
+  "item.mia.raw_gold_chestplate": "Raw Gold Chestplate",
+  "item.mia.raw_gold_leggings": "Raw Gold Leggings",
+  "item.mia.raw_gold_boots": "Raw Gold Boots",
+  "item.mia.raw_copper_helmet": "Raw Copper Helmet",
+  "item.mia.raw_copper_chestplate": "Raw Copper Chestplate",
+  "item.mia.raw_copper_leggings": "Raw Copper Leggings",
+  "item.mia.raw_copper_boots": "Raw Copper Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

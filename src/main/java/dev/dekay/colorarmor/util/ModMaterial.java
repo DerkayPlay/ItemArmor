@@ -2,11 +2,15 @@ package dev.dekay.colorarmor.util;
 
 public enum ModMaterial {
 
-    RED(1, 3, 2, 1, 0, 0, 0),
+    RED(1, 2, 2, 1, 0, 0, 0),
     LAPIS(2, 2,2,2,0,0,0),
-    EMERALD(2,6,4,2,0,0,0),
+    EMERALD(3,6,4,3,0,0,0),
     REDSTONE(2,2,2,2,0,0,0),
     COAL(2,4,3,2,0,0,0),
+    COPPER(2,3,2,2,0,0,0),
+    RAW_IRON(2,3,2,2,0,0,0),
+    RAW_GOLD(2,3,2,2,0,0,0),
+    RAW_COPPER(2,3,2,1,0,0,0),
     GUNPOWDER(1,1,1,1,0,0,0);
 
     private final int[] protectionAmounts;
