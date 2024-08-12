@@ -143,6 +143,11 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getRawCopperChestplate().get());
                         output.accept(ModItemArmor.getItems().getRawCopperLeggings().get());
                         output.accept(ModItemArmor.getItems().getRawCopperBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getQuartzHelmet().get());
+                        output.accept(ModItemArmor.getItems().getQuartzChestplate().get());
+                        output.accept(ModItemArmor.getItems().getQuartzLeggings().get());
+                        output.accept(ModItemArmor.getItems().getQuartzBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

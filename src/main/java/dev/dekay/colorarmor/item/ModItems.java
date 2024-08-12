@@ -109,6 +109,10 @@ public class ModItems {
     public static RegistryObject<Item> rawCopperChestplate;
     public static RegistryObject<Item> rawCopperLeggings;
     public static RegistryObject<Item> rawCopperBoots;
+    public static RegistryObject<Item> quartzHelmet;
+    public static RegistryObject<Item> quartzChestplate;
+    public static RegistryObject<Item> quartzLeggings;
+    public static RegistryObject<Item> quartzBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -240,6 +244,11 @@ public class ModItems {
         this.rawCopperChestplate = ITEMS.register("raw_copper_chestplate", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.rawCopperLeggings = ITEMS.register("raw_copper_leggings", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.rawCopperBoots = ITEMS.register("raw_copper_boots", () -> new ArmorItem(ModArmorTiers.RAW_COPPER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.quartzHelmet = ITEMS.register("quartz_helmet", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.quartzChestplate = ITEMS.register("quartz_chestplate", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.quartzLeggings = ITEMS.register("quartz_leggings", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.quartzBoots = ITEMS.register("quartz_boots", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -642,6 +651,22 @@ public class ModItems {
 
     public RegistryObject<Item> getRawCopperBoots() {
         return rawCopperBoots;
+    }
+
+    public RegistryObject<Item> getQuartzHelmet() {
+        return quartzHelmet;
+    }
+
+    public RegistryObject<Item> getQuartzChestplate() {
+        return quartzChestplate;
+    }
+
+    public RegistryObject<Item> getQuartzLeggings() {
+        return quartzLeggings;
+    }
+
+    public RegistryObject<Item> getQuartzBoots() {
+        return quartzBoots;
     }
 
 }

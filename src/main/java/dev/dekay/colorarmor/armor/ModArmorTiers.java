@@ -40,6 +40,7 @@ public enum ModArmorTiers implements ArmorMaterial {
     RAW_IRON("raw_iron", ModMaterial.RAW_IRON, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.RAW_IRON), new int[]{150, 195, 200, 150}),
     RAW_GOLD("raw_gold", ModMaterial.RAW_GOLD, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.RAW_GOLD), new int[]{61, 75, 82, 47}),
     RAW_COPPER("raw_copper", ModMaterial.RAW_COPPER, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.RAW_COPPER), new int[]{110, 155, 160, 110}),
+    QUARTZ("quartz", ModMaterial.QUARTZ, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.QUARTZ), new int[]{195, 225, 240, 165}),
 
     GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{20, 20, 20, 20});
 

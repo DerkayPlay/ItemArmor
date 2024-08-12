@@ -99,6 +99,10 @@
   "item.mia.raw_copper_chestplate": "Raw Copper Chestplate",
   "item.mia.raw_copper_leggings": "Raw Copper Leggings",
   "item.mia.raw_copper_boots": "Raw Copper Boots",
+  "item.mia.quartz_helmet": "Quartz Helmet",
+  "item.mia.quartz_chestplate": "Quartz Chestplate",
+  "item.mia.quartz_leggings": "Quartz Leggings",
+  "item.mia.quartz_boots": "Quartz Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }
