@@ -12,6 +12,9 @@ public enum ModMaterial {
     RAW_GOLD(2,3,2,2,0,0,0),
     RAW_COPPER(2,3,2,1,0,0,0),
     QUARTZ(3, 4, 4, 2,0,0,0),
+    ENDER_PEARL(4,6,5,4,0,0,0),
+    ENDER_EYE(5, 7, 6, 5,0,0,0),
+    AMETHYST(4,4,4,4,0,0,0),
     GUNPOWDER(1,1,1,1,0,0,0);
 
     private final int[] protectionAmounts;

@@ -103,6 +103,18 @@
   "item.mia.quartz_chestplate": "Quartz Chestplate",
   "item.mia.quartz_leggings": "Quartz Leggings",
   "item.mia.quartz_boots": "Quartz Boots",
+  "item.mia.amethyst_helmet": "Amethyst Shard Helmet",
+  "item.mia.amethyst_chestplate": "Amethyst Shard Chestplate",
+  "item.mia.amethyst_leggings": "Amethyst Shard Leggings",
+  "item.mia.amethyst_boots": "Amethyst Shard Boots",
+  "item.mia.ender_pearl_helmet": "Ender Pearl Helmet",
+  "item.mia.ender_pearl_chestplate": "Ender Pearl Chestplate",
+  "item.mia.ender_pearl_leggings": "Ender Pearl Leggings",
+  "item.mia.ender_pearl_boots": "Ender Pearl Boots",
+  "item.mia.ender_eye_helmet": "Ender Eye Helmet",
+  "item.mia.ender_eye_chestplate": "Ender Eye Chestplate",
+  "item.mia.ender_eye_leggings": "Ender Eye Leggings",
+  "item.mia.ender_eye_boots": "Ender Eye Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

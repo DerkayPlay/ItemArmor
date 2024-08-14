@@ -113,6 +113,19 @@ public class ModItems {
     public static RegistryObject<Item> quartzChestplate;
     public static RegistryObject<Item> quartzLeggings;
     public static RegistryObject<Item> quartzBoots;
+    public static RegistryObject<Item> amethystHelmet;
+    public static RegistryObject<Item> amethystChestplate;
+    public static RegistryObject<Item> amethystLeggings;
+    public static RegistryObject<Item> amethystBoots;
+
+    public static RegistryObject<Item> enderPearlHelmet;
+    public static RegistryObject<Item> enderPearlChestplate;
+    public static RegistryObject<Item> enderPearlLeggings;
+    public static RegistryObject<Item> enderPearlBoots;
+    public static RegistryObject<Item> enderEyeHelmet;
+    public static RegistryObject<Item> enderEyeChestplate;
+    public static RegistryObject<Item> enderEyeLeggings;
+    public static RegistryObject<Item> enderEyeBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -249,6 +262,21 @@ public class ModItems {
         this.quartzChestplate = ITEMS.register("quartz_chestplate", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.quartzLeggings = ITEMS.register("quartz_leggings", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.quartzBoots = ITEMS.register("quartz_boots", () -> new ArmorItem(ModArmorTiers.QUARTZ, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.enderPearlHelmet = ITEMS.register("ender_pearl_helmet", () -> new ArmorItem(ModArmorTiers.ENDER_PEARL, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.enderPearlChestplate = ITEMS.register("ender_pearl_chestplate", () -> new ArmorItem(ModArmorTiers.ENDER_PEARL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.enderPearlLeggings = ITEMS.register("ender_pearl_leggings", () -> new ArmorItem(ModArmorTiers.ENDER_PEARL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.enderPearlBoots = ITEMS.register("ender_pearl_boots", () -> new ArmorItem(ModArmorTiers.ENDER_PEARL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.enderEyeHelmet = ITEMS.register("ender_eye_helmet", () -> new ArmorItem(ModArmorTiers.ENDER_EYE, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.enderEyeChestplate = ITEMS.register("ender_eye_chestplate", () -> new ArmorItem(ModArmorTiers.ENDER_EYE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.enderEyeLeggings = ITEMS.register("ender_eye_leggings", () -> new ArmorItem(ModArmorTiers.ENDER_EYE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.enderEyeBoots = ITEMS.register("ender_eye_boots", () -> new ArmorItem(ModArmorTiers.ENDER_EYE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.amethystHelmet = ITEMS.register("amethyst_helmet", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.amethystChestplate = ITEMS.register("amethyst_chestplate", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.amethystLeggings = ITEMS.register("amethyst_leggings", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.amethystBoots = ITEMS.register("amethyst_boots", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -667,6 +695,54 @@ public class ModItems {
 
     public RegistryObject<Item> getQuartzBoots() {
         return quartzBoots;
+    }
+
+    public RegistryObject<Item> getEnderPearlHelmet() {
+        return enderPearlHelmet;
+    }
+
+    public RegistryObject<Item> getEnderPearlChestplate() {
+        return enderPearlChestplate;
+    }
+
+    public RegistryObject<Item> getEnderPearlLeggings() {
+        return enderPearlLeggings;
+    }
+
+    public RegistryObject<Item> getEnderPearlBoots() {
+        return enderPearlBoots;
+    }
+
+    public RegistryObject<Item> getEnderEyeHelmet() {
+        return enderEyeHelmet;
+    }
+
+    public RegistryObject<Item> getEnderEyeChestplate() {
+        return enderEyeChestplate;
+    }
+
+    public RegistryObject<Item> getEnderEyeLeggings() {
+        return enderEyeLeggings;
+    }
+
+    public RegistryObject<Item> getEnderEyeBoots() {
+        return enderEyeBoots;
+    }
+
+    public RegistryObject<Item> getAmethystHelmet() {
+        return amethystHelmet;
+    }
+
+    public RegistryObject<Item> getAmethystChestplate() {
+        return amethystChestplate;
+    }
+
+    public RegistryObject<Item> getAmethystLeggings() {
+        return amethystLeggings;
+    }
+
+    public RegistryObject<Item> getAmethystBoots() {
+        return amethystBoots;
     }
 
 }
