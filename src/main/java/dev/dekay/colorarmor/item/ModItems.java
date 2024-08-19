@@ -126,6 +126,10 @@ public class ModItems {
     public static RegistryObject<Item> enderEyeChestplate;
     public static RegistryObject<Item> enderEyeLeggings;
     public static RegistryObject<Item> enderEyeBoots;
+    public static RegistryObject<Item> driedKelpHelmet;
+    public static RegistryObject<Item> driedKelpChestplate;
+    public static RegistryObject<Item> driedKelpLeggings;
+    public static RegistryObject<Item> driedKelpBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -277,6 +281,11 @@ public class ModItems {
         this.amethystChestplate = ITEMS.register("amethyst_chestplate", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.amethystLeggings = ITEMS.register("amethyst_leggings", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.amethystBoots = ITEMS.register("amethyst_boots", () -> new ArmorItem(ModArmorTiers.AMETHYST, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.driedKelpHelmet = ITEMS.register("dried_kelp_helmet", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.driedKelpChestplate = ITEMS.register("dried_kelp_chestplate", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.driedKelpLeggings = ITEMS.register("dried_kelp_leggings", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.driedKelpBoots = ITEMS.register("dried_kelp_boots", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -743,6 +752,22 @@ public class ModItems {
 
     public RegistryObject<Item> getAmethystBoots() {
         return amethystBoots;
+    }
+
+    public RegistryObject<Item> getDriedKelpHelmet() {
+        return driedKelpHelmet;
+    }
+
+    public RegistryObject<Item> getDriedKelpChestplate() {
+        return driedKelpChestplate;
+    }
+
+    public RegistryObject<Item> getDriedKelpLeggings() {
+        return driedKelpLeggings;
+    }
+
+    public RegistryObject<Item> getDriedKelpBoots() {
+        return driedKelpBoots;
     }
 
 }

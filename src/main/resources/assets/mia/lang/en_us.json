@@ -115,6 +115,10 @@
   "item.mia.ender_eye_chestplate": "Ender Eye Chestplate",
   "item.mia.ender_eye_leggings": "Ender Eye Leggings",
   "item.mia.ender_eye_boots": "Ender Eye Boots",
+  "item.mia.dried_kelp_helmet": "Dried Kelp Helmet",
+  "item.mia.dried_kelp_chestplate": "Dried Kelp Chestplate",
+  "item.mia.dried_kelp_leggings": "Dried Kelp Leggings",
+  "item.mia.dried_kelp_boots": "Dried Kelp Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

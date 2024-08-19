@@ -45,6 +45,7 @@ public enum ModArmorTiers implements ArmorMaterial {
     ENDER_PEARL("ender_pearl", ModMaterial.ENDER_PEARL, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.ENDER_PEARL), new int[]{300, 400, 450, 300}),
     ENDER_EYE("ender_eye", ModMaterial.ENDER_EYE, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.ENDER_EYE), new int[]{350, 450, 500, 350}),
     AMETHYST("amethyst", ModMaterial.AMETHYST, SoundEvents.ARMOR_EQUIP_DIAMOND, () -> Ingredient.of(Items.AMETHYST_SHARD), new int[]{200, 225, 250, 200}),
+    DRIED_KELP("dried_kelp", ModMaterial.DRIED_KELP, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.DRIED_KELP), new int[]{5, 5, 5, 5}),
 
     GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{20, 20, 20, 20});
 

@@ -163,6 +163,11 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getEnderEyeChestplate().get());
                         output.accept(ModItemArmor.getItems().getEnderEyeLeggings().get());
                         output.accept(ModItemArmor.getItems().getEnderEyeBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getDriedKelpHelmet().get());
+                        output.accept(ModItemArmor.getItems().getDriedKelpChestplate().get());
+                        output.accept(ModItemArmor.getItems().getDriedKelpLeggings().get());
+                        output.accept(ModItemArmor.getItems().getDriedKelpBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);
