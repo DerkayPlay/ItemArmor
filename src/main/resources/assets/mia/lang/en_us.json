@@ -119,6 +119,18 @@
   "item.mia.dried_kelp_chestplate": "Dried Kelp Chestplate",
   "item.mia.dried_kelp_leggings": "Dried Kelp Leggings",
   "item.mia.dried_kelp_boots": "Dried Kelp Boots",
+  "item.mia.charcoal_helmet": "Charcoal Helmet",
+  "item.mia.charcoal_chestplate": "Charcoal Chestplate",
+  "item.mia.charcoal_leggings": "Charcoal Leggings",
+  "item.mia.charcoal_boots": "Charcoal Boots",
+  "item.mia.brick_helmet": "Brick Helmet",
+  "item.mia.brick_chestplate": "Brick Chestplate",
+  "item.mia.brick_leggings": "Brick Leggings",
+  "item.mia.brick_boots": "Brick Boots",
+  "item.mia.nether_brick_helmet": "Nether Brick Helmet",
+  "item.mia.nether_brick_chestplate": "Nether Brick Chestplate",
+  "item.mia.nether_brick_leggings": "Nether Brick Leggings",
+  "item.mia.nether_brick_boots": "Nether Brick Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

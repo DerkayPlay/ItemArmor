@@ -16,6 +16,9 @@ public enum ModMaterial {
     ENDER_EYE(5, 7, 6, 5,0,0,0),
     AMETHYST(4,4,4,4,0,0,0),
     DRIED_KELP(1,1,1,1,0,0,0),
+    CHARCOAL(2, 3, 3, 2, 0,0,0),
+    BRICK(2,3,2,1,0,0,0),
+    NETHER_BRICK(2,3,2,1,0,0,0),
     GUNPOWDER(1,1,1,1,0,0,0);
 
     private final int[] protectionAmounts;

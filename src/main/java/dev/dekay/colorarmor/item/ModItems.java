@@ -131,6 +131,20 @@ public class ModItems {
     public static RegistryObject<Item> driedKelpLeggings;
     public static RegistryObject<Item> driedKelpBoots;
 
+    public static RegistryObject<Item> charcoalHelemt;
+    public static RegistryObject<Item> charcoalChestplate;
+    public static RegistryObject<Item> charcoalLeggings;
+    public static RegistryObject<Item> charcoalBoots;
+    public static RegistryObject<Item> brickHelmet;
+    public static RegistryObject<Item> brickChestplate;
+    public static RegistryObject<Item> brickLeggings;
+    public static RegistryObject<Item> brickBoots;
+
+    public static RegistryObject<Item> netherBrickHelmet;
+    public static RegistryObject<Item> netherBrickChestplate;
+    public static RegistryObject<Item> netherBrickLeggings;
+    public static RegistryObject<Item> netherBrickBoots;
+
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
     public static RegistryObject<Item> gunpowderLeggings;
@@ -286,6 +300,21 @@ public class ModItems {
         this.driedKelpChestplate = ITEMS.register("dried_kelp_chestplate", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.driedKelpLeggings = ITEMS.register("dried_kelp_leggings", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.driedKelpBoots = ITEMS.register("dried_kelp_boots", () -> new ArmorItem(ModArmorTiers.DRIED_KELP, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.charcoalHelemt = ITEMS.register("charcoal_helmet", () -> new ArmorItem(ModArmorTiers.CHARCOAL, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.charcoalChestplate = ITEMS.register("charcoal_chestplate", () -> new ArmorItem(ModArmorTiers.CHARCOAL, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.charcoalLeggings = ITEMS.register("charcoal_leggings", () -> new ArmorItem(ModArmorTiers.CHARCOAL, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.charcoalBoots = ITEMS.register("charcoal_boots", () -> new ArmorItem(ModArmorTiers.CHARCOAL, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.brickHelmet = ITEMS.register("brick_helmet", () -> new ArmorItem(ModArmorTiers.BRICK, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.brickChestplate = ITEMS.register("brick_chestplate", () -> new ArmorItem(ModArmorTiers.BRICK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.brickLeggings = ITEMS.register("brick_leggings", () -> new ArmorItem(ModArmorTiers.BRICK, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.brickBoots = ITEMS.register("brick_boots", () -> new ArmorItem(ModArmorTiers.BRICK, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.netherBrickHelmet = ITEMS.register("nether_brick_helmet", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.netherBrickChestplate = ITEMS.register("nether_brick_chestplate", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.netherBrickLeggings = ITEMS.register("nether_brick_leggings", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.netherBrickBoots = ITEMS.register("nether_brick_boots", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -768,6 +797,54 @@ public class ModItems {
 
     public RegistryObject<Item> getDriedKelpBoots() {
         return driedKelpBoots;
+    }
+
+    public RegistryObject<Item> getCharcoalHelemt() {
+        return charcoalHelemt;
+    }
+
+    public RegistryObject<Item> getCharcoalChestplate() {
+        return charcoalChestplate;
+    }
+
+    public RegistryObject<Item> getCharcoalLeggings() {
+        return charcoalLeggings;
+    }
+
+    public RegistryObject<Item> getCharcoalBoots() {
+        return charcoalBoots;
+    }
+
+    public RegistryObject<Item> getBrickHelmet() {
+        return brickHelmet;
+    }
+
+    public RegistryObject<Item> getBrickChestplate() {
+        return brickChestplate;
+    }
+
+    public RegistryObject<Item> getBrickLeggings() {
+        return brickLeggings;
+    }
+
+    public RegistryObject<Item> getBrickBoots() {
+        return brickBoots;
+    }
+
+    public RegistryObject<Item> getNetherBrickHelmet() {
+        return netherBrickHelmet;
+    }
+
+    public RegistryObject<Item> getNetherBrickChestplate() {
+        return netherBrickChestplate;
+    }
+
+    public RegistryObject<Item> getNetherBrickLeggings() {
+        return netherBrickLeggings;
+    }
+
+    public RegistryObject<Item> getNetherBrickBoots() {
+        return netherBrickBoots;
     }
 
 }

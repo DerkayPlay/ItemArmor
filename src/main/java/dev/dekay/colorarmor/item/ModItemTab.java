@@ -168,6 +168,21 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getDriedKelpChestplate().get());
                         output.accept(ModItemArmor.getItems().getDriedKelpLeggings().get());
                         output.accept(ModItemArmor.getItems().getDriedKelpBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getCharcoalHelemt().get());
+                        output.accept(ModItemArmor.getItems().getCharcoalChestplate().get());
+                        output.accept(ModItemArmor.getItems().getCharcoalLeggings().get());
+                        output.accept(ModItemArmor.getItems().getCharcoalBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getBrickHelmet().get());
+                        output.accept(ModItemArmor.getItems().getBrickChestplate().get());
+                        output.accept(ModItemArmor.getItems().getBrickLeggings().get());
+                        output.accept(ModItemArmor.getItems().getBrickBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getNetherBrickHelmet().get());
+                        output.accept(ModItemArmor.getItems().getNetherBrickChestplate().get());
+                        output.accept(ModItemArmor.getItems().getNetherBrickBoots().get());
+                        output.accept(ModItemArmor.getItems().getNetherBrickLeggings().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);
