@@ -181,8 +181,8 @@ public class ModItemTab {
 
                         output.accept(ModItemArmor.getItems().getNetherBrickHelmet().get());
                         output.accept(ModItemArmor.getItems().getNetherBrickChestplate().get());
-                        output.accept(ModItemArmor.getItems().getNetherBrickBoots().get());
                         output.accept(ModItemArmor.getItems().getNetherBrickLeggings().get());
+                        output.accept(ModItemArmor.getItems().getNetherBrickBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);
