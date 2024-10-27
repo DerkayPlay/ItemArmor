@@ -131,6 +131,10 @@
   "item.mia.nether_brick_chestplate": "Nether Brick Chestplate",
   "item.mia.nether_brick_leggings": "Nether Brick Leggings",
   "item.mia.nether_brick_boots": "Nether Brick Boots",
+  "item.mia.echo_shard_helmet": "Echo Shard Helmet",
+  "item.mia.echo_shard_chestplate": "Echo Shard Chestplate",
+  "item.mia.echo_shard_leggings": "Echo Shard Leggings",
+  "item.mia.echo_shard_boots": "Echo Shard Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

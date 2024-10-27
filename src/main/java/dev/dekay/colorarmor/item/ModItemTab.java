@@ -183,6 +183,11 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getNetherBrickChestplate().get());
                         output.accept(ModItemArmor.getItems().getNetherBrickLeggings().get());
                         output.accept(ModItemArmor.getItems().getNetherBrickBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getEchoShardHelmet().get());
+                        output.accept(ModItemArmor.getItems().getEchoShardChestplate().get());
+                        output.accept(ModItemArmor.getItems().getEchoShardLeggings().get());
+                        output.accept(ModItemArmor.getItems().getEchoShardBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

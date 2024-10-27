@@ -139,11 +139,14 @@ public class ModItems {
     public static RegistryObject<Item> brickChestplate;
     public static RegistryObject<Item> brickLeggings;
     public static RegistryObject<Item> brickBoots;
-
     public static RegistryObject<Item> netherBrickHelmet;
     public static RegistryObject<Item> netherBrickChestplate;
     public static RegistryObject<Item> netherBrickLeggings;
     public static RegistryObject<Item> netherBrickBoots;
+    public static RegistryObject<Item> echoShardHelmet;
+    public static RegistryObject<Item> echoShardChestplate;
+    public static RegistryObject<Item> echoShardLeggings;
+    public static RegistryObject<Item> echoShardBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -315,6 +318,11 @@ public class ModItems {
         this.netherBrickChestplate = ITEMS.register("nether_brick_chestplate", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.netherBrickLeggings = ITEMS.register("nether_brick_leggings", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.netherBrickBoots = ITEMS.register("nether_brick_boots", () -> new ArmorItem(ModArmorTiers.NETHER_BRICK, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.echoShardHelmet = ITEMS.register("echo_shard_helmet", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.echoShardChestplate = ITEMS.register("echo_shard_chestplate", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.echoShardLeggings = ITEMS.register("echo_shard_leggings", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.echoShardBoots = ITEMS.register("echo_shard_boots", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -845,6 +853,22 @@ public class ModItems {
 
     public RegistryObject<Item> getNetherBrickBoots() {
         return netherBrickBoots;
+    }
+
+    public RegistryObject<Item> getEchoShardHelmet() {
+        return echoShardHelmet;
+    }
+
+    public RegistryObject<Item> getEchoShardChestplate() {
+        return echoShardChestplate;
+    }
+
+    public RegistryObject<Item> getEchoShardLeggings() {
+        return echoShardLeggings;
+    }
+
+    public RegistryObject<Item> getEchoShardBoots() {
+        return echoShardBoots;
     }
 
 }
