@@ -188,6 +188,16 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getEchoShardChestplate().get());
                         output.accept(ModItemArmor.getItems().getEchoShardLeggings().get());
                         output.accept(ModItemArmor.getItems().getEchoShardBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getHoneycombHelmet().get());
+                        output.accept(ModItemArmor.getItems().getHoneycombChestplate().get());
+                        output.accept(ModItemArmor.getItems().getHoneycombLeggings().get());
+                        output.accept(ModItemArmor.getItems().getHoneycombBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getBlazePowderHelmet().get());
+                        output.accept(ModItemArmor.getItems().getBlazePowderChestplate().get());
+                        output.accept(ModItemArmor.getItems().getBlazePowderLeggings().get());
+                        output.accept(ModItemArmor.getItems().getBlazePowderBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

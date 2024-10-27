@@ -135,6 +135,14 @@
   "item.mia.echo_shard_chestplate": "Echo Shard Chestplate",
   "item.mia.echo_shard_leggings": "Echo Shard Leggings",
   "item.mia.echo_shard_boots": "Echo Shard Boots",
+  "item.mia.honeycomb_helmet": "Honeycomb Helmet",
+  "item.mia.honeycomb_chestplate": "Honeycomb Chestplate",
+  "item.mia.honeycomb_leggings": "Honeycomb Leggings",
+  "item.mia.honeycomb_boots": "Honeycomb Boots",
+  "item.mia.blaze_powder_helmet": "Blaze Powder Helmet",
+  "item.mia.blaze_powder_chestplate": "Blaze Powder Chestplate",
+  "item.mia.blaze_powder_leggings": "Blaze Powder Leggings",
+  "item.mia.blaze_powder_boots": "Blaze Powder Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }

@@ -20,6 +20,8 @@ public enum ModMaterial {
     BRICK(2,3,2,1,0,0,0),
     NETHER_BRICK(2,3,2,1,0,0,0),
     ECHO_SHARD(1,2,2,1,0,0,0),
+    HONEYCOMB(3, 4,4,3,0,0,0),
+    BLAZE_POWDER(2,2,2,2,0,0,0),
     GUNPOWDER(1,1,1,1,0,0,0);
 
     private final int[] protectionAmounts;

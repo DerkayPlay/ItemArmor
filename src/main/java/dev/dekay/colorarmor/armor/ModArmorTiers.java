@@ -51,6 +51,8 @@ public enum ModArmorTiers implements ArmorMaterial {
     BRICK("brick", ModMaterial.BRICK, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.BRICK), new int[]{150, 190, 210, 130}),
     NETHER_BRICK("nether_brick", ModMaterial.NETHER_BRICK, SoundEvents.ARMOR_EQUIP_GOLD, () -> Ingredient.of(Items.NETHER_BRICK), new int[]{150, 190, 210, 130}),
     ECHO_SHARD("echo_shard", ModMaterial.ECHO_SHARD, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.ECHO_SHARD), new int[]{120, 135, 145, 120}),
+    HONEYCOMB("honeycomb", ModMaterial.HONEYCOMB, SoundEvents.HONEYCOMB_WAX_ON, () -> Ingredient.of(Items.HONEYCOMB), new int[]{250, 310, 315, 250}),
+    BLAZE_POWDER("blaze_powder", ModMaterial.BLAZE_POWDER, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLAZE_POWDER), new int[]{115, 130, 132, 115}),
 
     GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{20, 20, 20, 20});
 

@@ -147,6 +147,14 @@ public class ModItems {
     public static RegistryObject<Item> echoShardChestplate;
     public static RegistryObject<Item> echoShardLeggings;
     public static RegistryObject<Item> echoShardBoots;
+    public static RegistryObject<Item> honeycombHelmet;
+    public static RegistryObject<Item> honeycombChestplate;
+    public static RegistryObject<Item> honeycombLeggings;
+    public static RegistryObject<Item> honeycombBoots;
+    public static RegistryObject<Item> blazePowderHelmet;
+    public static RegistryObject<Item> blazePowderChestplate;
+    public static RegistryObject<Item> blazePowderLeggings;
+    public static RegistryObject<Item> blazePowderBoots;
 
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
@@ -323,6 +331,16 @@ public class ModItems {
         this.echoShardChestplate = ITEMS.register("echo_shard_chestplate", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.echoShardLeggings = ITEMS.register("echo_shard_leggings", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.echoShardBoots = ITEMS.register("echo_shard_boots", () -> new ArmorItem(ModArmorTiers.ECHO_SHARD, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.honeycombHelmet = ITEMS.register("honeycomb_helmet", () -> new ArmorItem(ModArmorTiers.HONEYCOMB, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.honeycombChestplate = ITEMS.register("honeycomb_chestplate", () -> new ArmorItem(ModArmorTiers.HONEYCOMB, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.honeycombLeggings = ITEMS.register("honeycomb_leggings", () -> new ArmorItem(ModArmorTiers.HONEYCOMB, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.honeycombBoots = ITEMS.register("honeycomb_boots", () -> new ArmorItem(ModArmorTiers.HONEYCOMB, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.blazePowderHelmet = ITEMS.register("blaze_powder_helmet", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.blazePowderChestplate = ITEMS.register("blaze_powder_chestplate", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.blazePowderLeggings = ITEMS.register("blaze_powder_leggings", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.blazePowderBoots = ITEMS.register("blaze_powder_boots", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -869,6 +887,38 @@ public class ModItems {
 
     public RegistryObject<Item> getEchoShardBoots() {
         return echoShardBoots;
+    }
+
+    public RegistryObject<Item> getHoneycombHelmet() {
+        return honeycombHelmet;
+    }
+
+    public RegistryObject<Item> getHoneycombChestplate() {
+        return honeycombChestplate;
+    }
+
+    public RegistryObject<Item> getHoneycombLeggings() {
+        return honeycombLeggings;
+    }
+
+    public RegistryObject<Item> getHoneycombBoots() {
+        return honeycombBoots;
+    }
+
+    public RegistryObject<Item> getBlazePowderHelmet() {
+        return blazePowderHelmet;
+    }
+
+    public RegistryObject<Item> getBlazePowderChestplate() {
+        return blazePowderChestplate;
+    }
+
+    public RegistryObject<Item> getBlazePowderLeggings() {
+        return blazePowderLeggings;
+    }
+
+    public RegistryObject<Item> getBlazePowderBoots() {
+        return blazePowderBoots;
     }
 
 }
