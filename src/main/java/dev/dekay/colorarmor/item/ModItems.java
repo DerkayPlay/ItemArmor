@@ -156,6 +156,11 @@ public class ModItems {
     public static RegistryObject<Item> blazePowderLeggings;
     public static RegistryObject<Item> blazePowderBoots;
 
+    public static RegistryObject<Item> netherStarHelmet;
+    public static RegistryObject<Item> netherStarChestplate;
+    public static RegistryObject<Item> netherStarLeggings;
+    public static RegistryObject<Item> netherStarBoots;
+
     public static RegistryObject<Item> gunpowderHelmet;
     public static RegistryObject<Item> gunpowderChestplate;
     public static RegistryObject<Item> gunpowderLeggings;
@@ -341,6 +346,11 @@ public class ModItems {
         this.blazePowderChestplate = ITEMS.register("blaze_powder_chestplate", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
         this.blazePowderLeggings = ITEMS.register("blaze_powder_leggings", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
         this.blazePowderBoots = ITEMS.register("blaze_powder_boots", () -> new ArmorItem(ModArmorTiers.BLAZE_POWDER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+        this.netherStarHelmet = ITEMS.register("nether_star_helmet", () -> new ArmorItem(ModArmorTiers.NETHER_STAR, ArmorItem.Type.HELMET, new Item.Properties()));
+        this.netherStarChestplate = ITEMS.register("nether_star_chestplate", () -> new ArmorItem(ModArmorTiers.NETHER_STAR, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        this.netherStarLeggings = ITEMS.register("nether_star_leggings", () -> new ArmorItem(ModArmorTiers.NETHER_STAR, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+        this.netherStarBoots = ITEMS.register("nether_star_boots", () -> new ArmorItem(ModArmorTiers.NETHER_STAR, ArmorItem.Type.BOOTS, new Item.Properties()));
 
         ITEMS.register(eventBus);
     }
@@ -919,6 +929,22 @@ public class ModItems {
 
     public RegistryObject<Item> getBlazePowderBoots() {
         return blazePowderBoots;
+    }
+
+    public RegistryObject<Item> getNetherStarHelmet() {
+        return netherStarHelmet;
+    }
+
+    public RegistryObject<Item> getNetherStarChestplate() {
+        return netherStarChestplate;
+    }
+
+    public RegistryObject<Item> getNetherStarLeggings() {
+        return netherStarLeggings;
+    }
+
+    public RegistryObject<Item> getNetherStarBoots() {
+        return netherStarBoots;
     }
 
 }

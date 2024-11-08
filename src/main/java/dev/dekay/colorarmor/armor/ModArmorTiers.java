@@ -54,6 +54,8 @@ public enum ModArmorTiers implements ArmorMaterial {
     HONEYCOMB("honeycomb", ModMaterial.HONEYCOMB, SoundEvents.HONEYCOMB_WAX_ON, () -> Ingredient.of(Items.HONEYCOMB), new int[]{250, 310, 315, 250}),
     BLAZE_POWDER("blaze_powder", ModMaterial.BLAZE_POWDER, SoundEvents.ARMOR_EQUIP_LEATHER, () -> Ingredient.of(Items.BLAZE_POWDER), new int[]{115, 130, 132, 115}),
 
+    NETHER_STAR("nether_star", ModMaterial.NETHER_STAR, SoundEvents.WITHER_SHOOT, () -> Ingredient.of(Items.NETHER_STAR), new int[]{700, 800, 950, 700}),
+
     GUNPOWDER("gunpowder", ModMaterial.GUNPOWDER, SoundEvents.CREEPER_PRIMED, () -> Ingredient.of(Items.GUNPOWDER), new int[]{20, 20, 20, 20});
 
     private final String name;

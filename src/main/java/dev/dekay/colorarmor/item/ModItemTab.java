@@ -198,6 +198,11 @@ public class ModItemTab {
                         output.accept(ModItemArmor.getItems().getBlazePowderChestplate().get());
                         output.accept(ModItemArmor.getItems().getBlazePowderLeggings().get());
                         output.accept(ModItemArmor.getItems().getBlazePowderBoots().get());
+
+                        output.accept(ModItemArmor.getItems().getNetherStarHelmet().get());
+                        output.accept(ModItemArmor.getItems().getNetherStarChestplate().get());
+                        output.accept(ModItemArmor.getItems().getNetherStarLeggings().get());
+                        output.accept(ModItemArmor.getItems().getNetherStarBoots().get());
                     }).build()
             );
             CREATIVE_MODE_TABS.register(eventBus);

@@ -143,6 +143,10 @@
   "item.mia.blaze_powder_chestplate": "Blaze Powder Chestplate",
   "item.mia.blaze_powder_leggings": "Blaze Powder Leggings",
   "item.mia.blaze_powder_boots": "Blaze Powder Boots",
+  "item.mia.nether_star_helmet": "Nether Star Helmet",
+  "item.mia.nether_star_chestplate": "Nether Star Chestplate",
+  "item.mia.nether_star_leggings": "Nether Star Leggings",
+  "item.mia.nether_star_boots": "Nether Star Boots",
 
   "itemGroup.mia.tab": "Item Armor Tab"
 }
